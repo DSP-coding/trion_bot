@@ -1,0 +1,1 @@
+/home/robot/robot_ws/src/trion_bot/launch/launch_sim.launch.py

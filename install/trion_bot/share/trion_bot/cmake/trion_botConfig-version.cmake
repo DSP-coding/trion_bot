@@ -1,0 +1,1 @@
+/home/robot/robot_ws/src/trion_bot/build/trion_bot/ament_cmake_core/trion_botConfig-version.cmake

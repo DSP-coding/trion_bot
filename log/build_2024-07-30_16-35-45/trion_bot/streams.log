@@ -1,0 +1,66 @@
+[0.008s] Invoking command in '/home/robot/robot_ws/src/trion_bot/build/trion_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/trion_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/trion_bot/install/trion_bot
+[0.048s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.154s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.155s] -- Detecting C compile features
+[0.155s] -- Detecting C compile features - done
+[0.157s] -- Detecting CXX compiler ABI info
+[0.217s] -- Detecting CXX compiler ABI info - done
+[0.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.224s] -- Detecting CXX compile features
+[0.225s] -- Detecting CXX compile features - done
+[0.227s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.398s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.421s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.488s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.492s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.493s] -- Configured cppcheck include dirs: 
+[0.493s] -- Configured cppcheck exclude dirs and/or files: 
+[0.497s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.497s] -- Configured cpplint exclude dirs and/or files: 
+[0.498s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.499s] -- Added test 'lint_cmake' to check CMake code style
+[0.500s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.505s] -- Added test 'uncrustify' to check C / C++ code style
+[0.505s] -- Configured uncrustify additional arguments: 
+[0.506s] -- Added test 'xmllint' to check XML markup files
+[0.507s] -- Configuring done
+[0.509s] -- Generating done
+[0.510s] -- Build files have been written to: /home/robot/robot_ws/src/trion_bot/build/trion_bot
+[0.514s] Invoked command in '/home/robot/robot_ws/src/trion_bot/build/trion_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/robot_ws/src/trion_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robot/robot_ws/src/trion_bot/install/trion_bot
+[0.515s] Invoking command in '/home/robot/robot_ws/src/trion_bot/build/trion_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/trion_bot/build/trion_bot -- -j12 -l12
+[0.542s] Invoked command in '/home/robot/robot_ws/src/trion_bot/build/trion_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/robot_ws/src/trion_bot/build/trion_bot -- -j12 -l12
+[0.565s] Invoking command in '/home/robot/robot_ws/src/trion_bot/build/trion_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/trion_bot/build/trion_bot
+[0.570s] -- Install configuration: ""
+[0.570s] -- Execute custom install script
+[0.571s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/config/empty.yaml
+[0.577s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/config/my_controllers.yaml
+[0.583s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/camera.xacro
+[0.589s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/gazebo_control.xacro
+[0.595s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/inertial_macros.xacro
+[0.601s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/lidar.xacro
+[0.607s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/robot.urdf.xacro
+[0.614s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/robot_core.xacro
+[0.621s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/ros2_control.xacro
+[0.628s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/launch/launch_sim.launch.py
+[0.635s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/launch/rsp.launch.py
+[0.642s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/worlds/empty.world
+[0.649s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/ament_index/resource_index/package_run_dependencies/trion_bot
+[0.656s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/ament_index/resource_index/parent_prefix_path/trion_bot
+[0.662s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/environment/ament_prefix_path.sh
+[0.668s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/environment/ament_prefix_path.dsv
+[0.675s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/environment/path.sh
+[0.681s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/environment/path.dsv
+[0.687s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/local_setup.bash
+[0.693s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/local_setup.sh
+[0.699s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/local_setup.zsh
+[0.706s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/local_setup.dsv
+[0.712s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/package.dsv
+[0.718s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/ament_index/resource_index/packages/trion_bot
+[0.725s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/cmake/trion_botConfig.cmake
+[0.731s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/cmake/trion_botConfig-version.cmake
+[0.737s] -- Symlinking: /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/package.xml
+[0.746s] Invoked command in '/home/robot/robot_ws/src/trion_bot/build/trion_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/robot_ws/src/trion_bot/build/trion_bot
