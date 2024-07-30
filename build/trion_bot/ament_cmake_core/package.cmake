@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "trion_bot")
 set(trion_bot_VERSION "0.0.0")
-set(trion_bot_MAINTAINER "MY NAME <my_email@email.com>")
+set(trion_bot_MAINTAINER "DHRUVSANJAY PATHAK <dhruvsanjayp21@gmail.com>")
 set(trion_bot_BUILD_DEPENDS )
 set(trion_bot_BUILDTOOL_DEPENDS "ament_cmake")
 set(trion_bot_BUILD_EXPORT_DEPENDS )

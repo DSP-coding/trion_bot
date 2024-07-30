@@ -1,0 +1,4 @@
+gazebo:
+  ros__parameters:
+    # General Gazebo settings
+    publish_rate: 400.0

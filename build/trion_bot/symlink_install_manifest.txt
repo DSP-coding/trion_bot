@@ -1,13 +1,17 @@
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/config/empty.yaml
+/home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/config/gazebo_params.yaml
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/config/my_controllers.yaml
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/camera.xacro
+/home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/depth_camera.xacro
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/gazebo_control.xacro
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/inertial_macros.xacro
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/lidar.xacro
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/robot.urdf.xacro
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/robot_core.xacro
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/description/ros2_control.xacro
+/home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/launch/camera.launch.py
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/launch/launch_sim.launch.py
+/home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/launch/rplidar.launch.py
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/launch/rsp.launch.py
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/trion_bot/worlds/empty.world
 /home/robot/robot_ws/src/trion_bot/install/trion_bot/share/ament_index/resource_index/package_run_dependencies/trion_bot
