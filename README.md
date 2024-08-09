@@ -20,6 +20,9 @@ steps:
 16 ros2 run controller_manager spawner.py joint_broad
 All copyrights reserved to Trion Robotics. # robot_ws
 
+17 rviz2 -d src/trion_bot/config/config.rviz
+18 ros2 launch trion_bot launch_robot.launch.py
+
 Git update:
 cd ~/robot_ws/src/trion_bot
 git status
