@@ -9,7 +9,7 @@ steps:
 5 ros2 launch trion_bot rsp.launch.py
 6 open another terminal tab
 7 rviv2 for simulation 
-8 python3 -m serial.tools.miniterm /dev/ttyUSB0 57600
+8 pyserial-miniterm -e /dev/ttyUSB0 57600
 9 ros2 launch trion_bot launch_sim.launch.py
 10 ros2 run teleop_twist_keyboard teleop_twist_keyboard 
 11 ros2 run joint_state_publisher_gui joint_state_publisher_gui
@@ -26,3 +26,4 @@ git status
 git add .
 git commit -m "changes"
 git push origin master
+ros2 run v4l2_camera v4l2_camera_node --ros-args -p image_size:="[640,480]" -p camera_frame_id:=camera_optical_link
