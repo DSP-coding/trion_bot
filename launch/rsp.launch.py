@@ -12,7 +12,7 @@ import xacro
 
 def generate_launch_description():
 
-    # Check if we're told to use sim time
+    # Check for use sim time
     use_sim_time = LaunchConfiguration('use_sim_time')
     use_ros2_control = LaunchConfiguration('use_ros2_control')
 
@@ -32,7 +32,7 @@ def generate_launch_description():
     )
 
 
-    # Launch!
+    # Launch
     return LaunchDescription([
         DeclareLaunchArgument(
             'use_sim_time',
