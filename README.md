@@ -1,43 +1,13 @@
 Intelligent robot programming using Robot Operating System (ROS), version: ROS 2 Humble
 
 By: Dhruvsanjay Pathak ID: 19067960 and Manraj Singh Gill 
-steps: 
-1 open terminal
-2 cd project_ws
-3 colcon build --symlink-install 
-4 source install/setup.bash 
-5 ros2 launch trion_bot rsp.launch.py
-6 open another terminal tab
-7 rviv2 for simulation 
-8 pyserial-miniterm -e /dev/ttyUSB0 57600
-9 ros2 launch trion_bot launch_sim.launch.py
-10 ros2 run teleop_twist_keyboard teleop_twist_keyboard 
-11 ros2 run joint_state_publisher_gui joint_state_publisher_gui
-12 ros2 run rqt_image_view rqt_image_view
-13 ros2 run rplidar_ros rplidar_composition --ros-args -p serial_port:=/dev/ttyUSB0 -p serial_baudrate:=115200 -p frame_id:=laser_frame -p angle_compensate:=true -p scan_mode:=Standard
 
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped 
-15 ros2 run controller_manager spawner.py diff_cont
-16 ros2 run controller_manager spawner.py joint_broad
-All copyrights reserved to Trion Robotics. # robot_ws
+All copyrights reserved to Trion Robotics.
 
-17 rviz2 -d src/trion_bot/config/config.rviz
-18 ros2 launch trion_bot launch_robot.launch.py
 
-Git update:
-cd ~/robot_ws/src/trion_bot
-git status
-git add .
-git commit -m "changes"
-git push origin master
-ros2 run v4l2_camera v4l2_camera_node --ros-args -p image_size:="[640,480]" -p camera_frame_id:=camera_optical_link
 
-pyserial-miniterm -e /dev/ttyUSB0 57600
 
-ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/camera/image_raw/compressed -r out:=/camera/image_raw/uncompressed
 
-ros2 launch ball_tracker ball_tracker.launch.py tune_detection:=true detect_only:=true image_topic:=/camera/image_raw/uncompressed
 
-ros2 launch ball_tracker ball_tracker.launch.py params_file:=/src/trion_bot/config/ball_tracker_params_robot.yaml image_topic:=/camera/image_raw/uncompressed
 
 
